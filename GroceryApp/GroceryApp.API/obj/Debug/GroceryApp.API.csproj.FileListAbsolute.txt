@@ -69,3 +69,6 @@ C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\
 C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.API\obj\Debug\GroceryApp.API.csproj.CopyComplete
 C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.API\obj\Debug\GroceryApp.API.dll
 C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.API\obj\Debug\GroceryApp.API.pdb
+C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.API\bin\System.Web.Cors.dll
+C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.API\bin\System.Web.Http.Cors.dll
+C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.API\bin\System.Web.Http.Cors.xml

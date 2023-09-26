@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace GroceryApp.API
 {
@@ -19,8 +20,8 @@ namespace GroceryApp.API
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-            //var corsAttr = new EnableCorsAttribute("http://localhost:60901/", "*", "*");
-            //config.EnableCors(corsAttr);
+            var corsAttr = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(corsAttr);
         }
     }
 }
