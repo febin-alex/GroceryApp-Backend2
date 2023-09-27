@@ -10,7 +10,7 @@ namespace GroceryApp.Data
 {
     public class UserServiceImpl : IUserService
     {
-        private string connectionString = "server=INL609;database=GroceryDB;trusted_connection=yes";
+        private string connectionString = "server=INL615;database=GroceryDB;trusted_connection=yes";
         private SqlConnection conn;
         private SqlCommand cmd;
 

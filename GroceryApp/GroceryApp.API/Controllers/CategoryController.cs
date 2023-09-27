@@ -22,6 +22,8 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Get()
         {
             var data = categoryService.GetAllCategories();
+            if (data == null)
+                return NotFound();
             return Ok(data);
         }
 
@@ -30,6 +32,8 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Get(int id)
         {
             var data = categoryService.GetCategoryById(id);
+            if (data == null)
+                return NotFound();
             return Ok(data);
         }
 
@@ -37,6 +41,8 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Post(Categories category)
         {
             var data = categoryService.AddCategory(category);
+            if (data == null)
+                return BadRequest();
             return Ok(data);
         }
     }

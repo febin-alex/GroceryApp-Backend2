@@ -12,7 +12,7 @@ namespace GroceryApp.Data
 {
     public class SubcategoryServiceImpl : ISubcategoryService
     {
-        private string connectionString = "server=INL609;database=GroceryDB;trusted_connection=yes";
+        private string connectionString = "server=INL615;database=GroceryDB;trusted_connection=yes";
         private SqlConnection conn;
         private SqlCommand cmd;
 
@@ -34,7 +34,7 @@ namespace GroceryApp.Data
                 while(reader.Read())
                 {
                     Subcategories subcategory = new Subcategories();
-                    System.Diagnostics.Debug.WriteLine((int)reader[2]);
+                    //System.Diagnostics.Debug.WriteLine((int)reader[2]);
 
                     subcategory.Id = (int)reader["Id"];
                     subcategory.SubcategoryName = (string)reader["SubcategoryName"];

@@ -39,7 +39,6 @@ namespace GroceryApp.API.Controllers
                 {
                     status = "fail",
                     message = "User already exists"
-                    //    token = "your-auth-token",  Replace with the actual token
                 });
         }
 
