@@ -4,3 +4,9 @@ C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\
 C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.Entity\obj\Debug\GroceryApp.Entity.csproj.CoreCompileInputs.cache
 C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.Entity\obj\Debug\GroceryApp.Entity.dll
 C:\Users\mt\OneDrive - SOTI Inc\Desktop\Training\GroceryApp\GroceryApp_Backend2\GroceryApp\GroceryApp.Entity\obj\Debug\GroceryApp.Entity.pdb
+C:\Users\tsunny\OneDrive - SOTI Inc\Desktop\Grocery Final\GroceryApp-Backend2\GroceryApp\GroceryApp.Entity\bin\Debug\GroceryApp.Entity.dll
+C:\Users\tsunny\OneDrive - SOTI Inc\Desktop\Grocery Final\GroceryApp-Backend2\GroceryApp\GroceryApp.Entity\bin\Debug\GroceryApp.Entity.pdb
+C:\Users\tsunny\OneDrive - SOTI Inc\Desktop\Grocery Final\GroceryApp-Backend2\GroceryApp\GroceryApp.Entity\obj\Debug\GroceryApp.Entity.csproj.AssemblyReference.cache
+C:\Users\tsunny\OneDrive - SOTI Inc\Desktop\Grocery Final\GroceryApp-Backend2\GroceryApp\GroceryApp.Entity\obj\Debug\GroceryApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\tsunny\OneDrive - SOTI Inc\Desktop\Grocery Final\GroceryApp-Backend2\GroceryApp\GroceryApp.Entity\obj\Debug\GroceryApp.Entity.dll
+C:\Users\tsunny\OneDrive - SOTI Inc\Desktop\Grocery Final\GroceryApp-Backend2\GroceryApp\GroceryApp.Entity\obj\Debug\GroceryApp.Entity.pdb
