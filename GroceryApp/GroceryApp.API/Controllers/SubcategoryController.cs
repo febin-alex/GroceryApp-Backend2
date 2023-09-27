@@ -22,6 +22,8 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Get(int catId)
         {
             var data = subcategoryService.GetSubCategoriesByCatId(catId);
+            if (data == null)
+                return NotFound();
             return Ok(data);
         }
     }

@@ -9,7 +9,6 @@ using System.Web.Http;
 
 namespace GroceryApp.API.Controllers
 {
-    //[EnableCors(origins: "http://example.com", headers: "*", methods: "*")]
     [RoutePrefix("api/Product")]
     public class ProductController : ApiController
     {
@@ -23,6 +22,8 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Get()
         {
             var data = productService.GetAllProducts();
+            if (data == null)
+                return NotFound();
             return Ok(data);
         }
 
@@ -31,6 +32,8 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Get(int id)
         {
             var data = productService.GetProductById(id);
+            if (data == null)
+                return NotFound();
             return Ok(data);
         }
 
@@ -39,6 +42,8 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Get(int catId, int subCatId)
         {
             var data = productService.SearchProduct(catId, subCatId);
+            if (data == null)
+                return NotFound();
             return Ok(data);
         }
 
@@ -47,13 +52,18 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Post(Products product)
         {
             var data = productService.AddProduct(product);
+            if (data == null)
+                return BadRequest();
             return Ok(data);
         }
 
         [HttpPut]
+        [Route("{id}")]
         public IHttpActionResult Put(int id)
         {
             var data = productService.EditProduct(id);
+            if (data == false)
+                return BadRequest();
             return Ok(data);
         }
 
@@ -63,6 +73,8 @@ namespace GroceryApp.API.Controllers
         public IHttpActionResult Get(string name)
         {
             var data = productService.SearchProduct(name);
+            if (data == null)
+                return NotFound();
             return Ok(data);
         }
     }
