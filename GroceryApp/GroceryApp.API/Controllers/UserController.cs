@@ -28,7 +28,11 @@ namespace GroceryApp.API.Controllers
             var data = userService.RegisterUser(user);
             if (data != null)
             {
-                return Ok(data);
+                return Ok(new { 
+                    status="success",
+                    user=data 
+                }
+                );
             }
             else
                 return Ok(new
